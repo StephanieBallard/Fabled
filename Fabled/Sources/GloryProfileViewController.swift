@@ -130,21 +130,21 @@ class GloryProfileViewController: DeclarativeViewController, RootPresentationVie
           StackView(.horizontal, [
             Spacer(.flexible),
 
-            Button(#imageLiteral(resourceName: "escape_regular_m"))
+            Button(#imageLiteral(resourceName: "fabled-alpha"))
               .observe(with: onChangePlayerPressed)
               .size(DisplayScale.x375.scaleWithHeight(22))
               .tintColor(Style.Color.deemphasized),
 
             Spacer(50),
 
-            Button(#imageLiteral(resourceName: "refresh_regular_m"))
+            Button(#imageLiteral(resourceName: "fabled-alpha"))
               .observe(with: onRefreshPressed)
               .size(DisplayScale.x375.scaleWithHeight(34))
               .tintColor(Style.Color.interactive),
 
             Spacer(50),
 
-            Button(#imageLiteral(resourceName: "question_regular_m"))
+            Button(#imageLiteral(resourceName: "fabled-alpha"))
               .observe(with: onMoreInfoPressed)
               .size(DisplayScale.x375.scaleWithHeight(22 + 2)) //+2 for visual sizing differences from escape button
               .tintColor(Style.Color.deemphasized),
